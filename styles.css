@@ -1,0 +1,55 @@
+Body{
+    background-color: #f4f4f4;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    margin: 0;
+}
+header{
+    background-color: #333;
+    color: #FFF;
+    text-align: center;
+}
+.botao-categoria{
+    background-color: #4CAF50;
+    color: #FFF;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.box-imagens {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.imagem {
+    width: calc(50% - 30px);
+    height: calc(50% - 30px); 
+    max-width: calc(50vw - 30px);
+    max-height: calc(50vh - 35px); 
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+}
+
+.imagem img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15pxx;
+}
+  
+
+footer{
+    height: 40px;
+    background-color: #333;
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    color: #FFF;
+}
+.active{
+    background-color: #2e6d30;
+}
